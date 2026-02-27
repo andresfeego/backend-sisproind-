@@ -1,0 +1,27 @@
+{
+  "name": "backend-sisproind",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.15.0",
+    "pdfkit": "^0.17.2",
+    "qrcode": "^1.5.4",
+    "multer": "^2.0.2",
+    "react": "^18.3.1",
+    "@react-pdf/renderer": "^3.4.5",
+    "archiver": "^7.0.1",
+    "cookie-session": "^2.1.0",
+    "body-parser": "^1.20.3",
+    "sharp": "^0.34.5",
+    "moment": "^2.30.1",
+    "nodemailer": "^6.9.16"
+  }
+}
