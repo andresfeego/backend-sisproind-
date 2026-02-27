@@ -19,14 +19,7 @@ const cookieSession = require('cookie-session');
 
 const router = express.Router();
 
-
-var bodyParser = require('body-parser');
-
-
-router.use( bodyParser.json() );
-router.use(bodyParser.urlencoded({
-  extended: true
-}));
+// Body parsing is handled at app level (server/index.js)
 
 router.use(cookieSession({
     secret: 'sisproind',
