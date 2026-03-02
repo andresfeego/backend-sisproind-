@@ -282,7 +282,7 @@ csmDB.tipoEstadosCurso = () => {
     csmDB.agregarEventoBitacora = (idTipoEvento, descripcion, idUsuarioSistema) => {
         var fecha = new Date();
 
-        fecha = moment(fecha).format();
+        fecha = moment(fecha).format('YYYY-MM-DD HH:mm:ss');
         
         return new Promise((resolve, reject)=> {
         
